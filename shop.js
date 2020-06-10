@@ -199,6 +199,12 @@ function updateCartTotal() {
         var quantity = quantityElement.value;
         total = total + price * quantity;
     }
+    if (total > 0) {
+        document.querySelector(".toggleCart").style.display="block"
+    }
+    else {
+        document.querySelector(".toggleCart").style.display="none"
+    }
     total = Math.round(total * 100) / 100;
     document.getElementsByClassName("cart-total-price")[0].innerText =
         "$" + total;

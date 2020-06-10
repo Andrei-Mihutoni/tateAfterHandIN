@@ -129,10 +129,32 @@ header {
     padding-top: 1rem;
 }
 
-.cart {
-    width: 1.5em;
+.cartContainer {
+    position: relative;
     margin-right: 1em;
 }
+
+.cart {
+    width: 1.5em;
+    top: 0;
+    right: 0;
+}
+
+
+.cartFull {
+    pointer-events: none;
+    width: 1.5em;
+    margin-right: 1.5em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.cartFull.toggleCart {
+    display: none;
+}
+
 
 /*Hiding "my cart"*/
 .navbar .mycart {
@@ -355,7 +377,8 @@ video {
 
 .oneImage {
     width: 200px;
-    padding: 25px 20px 5px;;
+    padding: 25px 20px 5px;
+    ;
 }
 
 .banner {
@@ -413,10 +436,11 @@ a.whitebutton {
     padding-right: 25%;
 }
 
-.singleInfo h1{
+.singleInfo h1 {
     font-weight: 400;
     font-family: Brandon Grotesque, sans-serif;
 }
+
 .singleImage {
     width: 90%;
     margin: 0 auto;
@@ -1038,7 +1062,7 @@ footer p {
     align-content: center;
 }
 
-.shop-item h3{
+.shop-item h3 {
     font-weight: 400;
 }
 
@@ -1056,9 +1080,9 @@ footer p {
     font-weight: 100;
 }
 
-.price{
+.price {
     font-weight: 100;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
 .shop-items {
