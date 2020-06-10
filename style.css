@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
 }
 
 /*BUTTONS*/
@@ -27,7 +27,7 @@ button {
     font-weight: 400;
     width: 100px;
     text-transform: uppercase;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
     cursor: pointer;
     text-decoration: none;
 }
@@ -410,7 +410,7 @@ a.whitebutton {
     color: #707070;
     font-weight: 100;
     background-color: #f2f2f2;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
     font-size: 1rem;
 }
 
@@ -438,7 +438,7 @@ a.whitebutton {
 
 .singleInfo h1 {
     font-weight: 400;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
 }
 
 .singleImage {
@@ -450,7 +450,7 @@ a.whitebutton {
     padding: 0.7rem;
     font-weight: 100;
     font-size: 1rem;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
     border: 1px solid #707070;
     border-radius: 10px;
 }
@@ -725,7 +725,7 @@ footer > div {
     font-weight: 100;
     text-align: center;
     background-color: #f2f2f2;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
     cursor: text;
 }
 
@@ -827,9 +827,6 @@ footer p {
     }
 
     /* HOMEPAGE */
-    .homegrid {
-        margin: ;
-    }
 
     .shopart {
         padding-top: 10%;
@@ -1019,7 +1016,6 @@ footer p {
     height: 100vh;
     position: fixed;
     right: 0;
-    transition: slide 1s;
     display: none;
     z-index: 1;
 }
@@ -1041,7 +1037,7 @@ footer p {
     border: 1px solid white;
     padding: 15px 0;
     width: 300px;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
 }
 
 .btn-primary:hover {
