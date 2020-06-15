@@ -1,5 +1,4 @@
 @import url("https://use.typekit.net/nfv6tjp.css");
-
 @import url("https://use.typekit.net/gnf7zyw.css");
 
 * {
@@ -8,7 +7,7 @@
 }
 
 body {
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
 }
 
 /*BUTTONS*/
@@ -28,7 +27,7 @@ button {
     font-weight: 400;
     width: 100px;
     text-transform: uppercase;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
     cursor: pointer;
     text-decoration: none;
 }
@@ -130,10 +129,32 @@ header {
     padding-top: 1rem;
 }
 
-.cart {
-    width: 1.5em;
+.cartContainer {
+    position: relative;
     margin-right: 1em;
 }
+
+.cart {
+    width: 1.5em;
+    top: 0;
+    right: 0;
+}
+
+
+.cartFull {
+    pointer-events: none;
+    width: 1.5em;
+    margin-right: 1.5em;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.cartFull.toggleCart {
+    display: none;
+}
+
 
 /*Hiding "my cart"*/
 .navbar .mycart {
@@ -356,7 +377,8 @@ video {
 
 .oneImage {
     width: 200px;
-    padding: 25px 20px 5px;;
+    padding: 25px 20px 5px;
+    ;
 }
 
 .banner {
@@ -388,7 +410,7 @@ a.whitebutton {
     color: #707070;
     font-weight: 100;
     background-color: #f2f2f2;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
     font-size: 1rem;
 }
 
@@ -414,10 +436,11 @@ a.whitebutton {
     padding-right: 25%;
 }
 
-.singleInfo h1{
+.singleInfo h1 {
     font-weight: 400;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
 }
+
 .singleImage {
     width: 90%;
     margin: 0 auto;
@@ -427,7 +450,7 @@ a.whitebutton {
     padding: 0.7rem;
     font-weight: 100;
     font-size: 1rem;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
     border: 1px solid #707070;
     border-radius: 10px;
 }
@@ -702,7 +725,7 @@ footer > div {
     font-weight: 100;
     text-align: center;
     background-color: #f2f2f2;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
     cursor: text;
 }
 
@@ -804,9 +827,6 @@ footer p {
     }
 
     /* HOMEPAGE */
-    .homegrid {
-        margin: ;
-    }
 
     .shopart {
         padding-top: 10%;
@@ -996,7 +1016,6 @@ footer p {
     height: 100vh;
     position: fixed;
     right: 0;
-    transition: slide 1s;
     display: none;
     z-index: 1;
 }
@@ -1018,7 +1037,7 @@ footer p {
     border: 1px solid white;
     padding: 15px 0;
     width: 300px;
-    font-family: Brandon Grotesque, sans-serif;
+    font-family: "Brandon Grotesque", sans-serif;
 }
 
 .btn-primary:hover {
@@ -1039,7 +1058,7 @@ footer p {
     align-content: center;
 }
 
-.shop-item h3{
+.shop-item h3 {
     font-weight: 400;
 }
 
@@ -1057,9 +1076,9 @@ footer p {
     font-weight: 100;
 }
 
-.price{
+.price {
     font-weight: 100;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
 .shop-items {
